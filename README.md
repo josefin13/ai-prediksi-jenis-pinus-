@@ -32,22 +32,6 @@ Digunakan untuk memprediksi jenis pinus berdasarkan kedekatan nilai diameter dan
 
 ---
 
-## 💾 Struktur Tabel Database
-
-### `data_training`
-
-| id  | diameter | tinggi | jenis_pinus |
-| --- | -------- | ------ | ----------- |
-
-### `basis_pengetahuan`
-
-| id                     | kondisi (PHP) | jenis_pinus | cf  |
-| ---------------------- | ------------- | ----------- | --- |
-| `$t >= 15 && $d >= 13` | White Pine    | 0.9         |
-| `$t < 15 && $d < 13`   | Douglas Fir   | 0.9         |
-
----
-
 ## 🚀 Cara Menjalankan Proyek
 
 1. Clone repo ini atau download ZIP-nya
